@@ -1,0 +1,126 @@
+/*
+ * added by John McCord
+ */
+
+div#codeLoadIntro {
+	background-image: url("../images/CodeLoadIntrod.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+    width: 100%;
+}
+
+.container {
+	height: 85%;
+	width: 100%;
+}
+
+#introButton {
+	position: relative;
+	top: 375px;
+	background-color: #22d664;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 6px 4px;
+    cursor: pointer;
+    outline:none;
+}
+
+#playAgainButton {
+	position: relative;
+	background-color: #22d664;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 6px 4px;
+    cursor: pointer;
+    outline:none;
+}
+
+#headers {
+	padding-top:20px;
+	background-color:#bc1818;
+}
+
+#congratsMessage {
+	position: relative;
+	left: -50%;
+	z-index: 1;
+	top: 150px;
+}
+
+#congratsMessage h1 {
+	font-size: 80px;
+	color: #22d664;
+}
+
+.blur {
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+
+h1 {
+	display:inline;
+	font-family: Arial;
+	color: white;
+	padding-left: 10px;
+}
+
+p {
+	color: #484948;
+	font-family:Arial;
+	font-size: 18px;
+	padding: 5px !important;
+	border-top: 1px solid #484948;
+	border-bottom: 1px solid #484948;
+}
+
+div#codeLoad {
+	background-image: url("../images/Circuits4.jpg");
+	height: 500px;
+    width: 100%;
+}
+
+div.instructions {
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin: 5px;
+	border: 2px solid #484948;
+	background-color: #f2f1a9;
+}
+
+.tableContainer {
+	float: right;
+	width: 70%;
+}
+
+.dragDropTable {
+	width: auto;
+	margin-top: 5px;
+}
+
+.tile {
+	height: 95px !important;
+    width: 80% !important;
+    cursor: move;
+    opacity: 1;
+}
+
+.tile.over {
+	border: 2px dashed #fff;
+}

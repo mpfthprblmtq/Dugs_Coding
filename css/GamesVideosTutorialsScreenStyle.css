@@ -1,0 +1,61 @@
+/*
+ * added by John McCord
+ */
+ 
+.vidGameOptions {
+    list-style-type: none;
+    position: absolute;
+    top: 180px;
+}
+
+ul.vidGameOptions li{
+    padding: 5px 20px 5px 0px;
+}
+
+ul.vidGameOptions li a {
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+ul.vidGameOptions li a img{
+    height: 115px;
+    width: 250px;
+}
+
+div.selectedOption img {
+    height: 500px;
+    width: 100%;
+}
+
+div.selectedOption {
+    position: relative;
+    top: 193px;
+    left: 350px;
+    height: 500px;
+    width: 65%;
+}
+
+div.video-wrapper {
+    position: relative;
+    top: 193px;
+    left: 350px;
+}
+
+div.selectedVidGameOption img {
+    height: 500px;
+    width: 65%;
+}
+
+div.optionsBody {
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    display:block;
+}
+
+ul.vidGameOptions li a img:hover {
+    -moz-box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+    width: 251px; 
+}

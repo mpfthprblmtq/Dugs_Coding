@@ -1,0 +1,85 @@
+/*
+ *	Name: Pat Ripley
+ *  File: WhosWhoScreenStyle.css
+ */
+
+#mainTable {
+    position: relative;
+    top: 160px;
+    left: 5px;
+    width: auto;
+}
+
+caption {
+	font-family: Arial;
+	font-size:32px;
+	color: #f9b04f;
+}
+/*************************************************************************************
+	Internal CSS class responsible for flipping pictures
+*************************************************************************************/
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container .selected .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 305px;
+	height: 305px;
+}
+
+.front img, .back img {
+	width: auto;
+	height: auto;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+
+
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.who:hover {
+    -moz-box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+	height: 100%;
+    width: 100%; 
+}
+
+/*************************************************************************************
+	End picture flipping class
+*************************************************************************************/

@@ -1,0 +1,32 @@
+/*
+ * added by John McCord
+ */
+
+#container {
+    position: relative;
+    top: 175px;
+    width: 90%;
+}
+
+#mainSelectTable{
+	width: 100%;
+}
+
+/************* Home Tiles *************/
+
+#mainSelectTable tr td{
+	padding: 10px 10px 10px 10px;
+}
+
+.homeTiles {
+    height: 25%;
+    width: 100%; 
+}
+
+.homeTiles:hover {
+	-moz-box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px 8px rgba(0,0,0,0.5);
+	height: 25%;
+    width: 101%; 
+}

@@ -1,0 +1,65 @@
+/*
+ * added by John McCord
+ */
+ 
+ /******** Main Images *********/
+
+.mainImage {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.textImage {
+    position: absolute;
+    left: 200px;
+    top: 5px;
+    z-index: 1;
+}
+
+/********* Navigation bar elements ***********/
+
+a.homeLink  {
+    padding-left: 200px !important;
+}
+
+.signUpLink {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #7D9BFF;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    font-family: Arial;
+    font-size: 22px;
+    display: block;
+    color: #7D9BFF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    color: #3138A1;
+}

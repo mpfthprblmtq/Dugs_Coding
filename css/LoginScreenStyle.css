@@ -1,0 +1,54 @@
+div1{
+    
+    font-size:xx-large;
+    text-wrap:none;
+    text-align: left;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    
+}
+div2{
+    font-size:large;
+    text-wrap:none;
+    text-align: left;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+   
+    
+}
+
+div3{
+    font-size:large;
+    text-wrap:none;
+    text-align: left;
+    position: fixed;
+    top: 60%;
+    left: 60%;
+   
+    
+}
+div4{
+    font-size:large;
+    text-wrap:none;
+    text-align: left;
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    
+    color:cornflowerblue;
+}
+.resizedTextbox {
+    width: 400px;
+    height: 15px;
+}
+.resizedButton {
+    background-color: cornflowerblue;
+    border-color:aliceblue;
+    color:white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
